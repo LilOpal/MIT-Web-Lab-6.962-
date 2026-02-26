@@ -1,0 +1,19 @@
+h1 {
+    display: block;
+    color: black;
+    font-size: x-large;
+    font-family: bold;
+}
+
+.warn{
+    display: block;
+    color: crimson;
+    font-size: large;
+    font-family: Bold;
+}
+
+.info{
+    display: block;
+    font-family: Times New Roman;
+    font-size: 1em;
+}
