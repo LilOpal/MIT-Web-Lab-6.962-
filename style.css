@@ -1,3 +1,14 @@
+body {
+    background-color: #ffffff;
+    color: #333333;
+    transition: background 0.3s, color 0.3s;
+}
+
+body.dark-theme {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
 h1 {
     display: block;
     color: black;
@@ -18,14 +29,3 @@ h1 {
     font-size: 1em;
 }
 
-body {
-    background-color: #ffffff;
-    color: #333333;
-    transition: background 0.3s, color 0.3s; /* 让颜色过渡更平滑 */
-}
-
-/* 暗黑模式样式 */
-body.dark-theme {
-    background-color: #1e1e1e;
-    color: #ffffff;
-}

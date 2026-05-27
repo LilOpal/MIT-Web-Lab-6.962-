@@ -3,7 +3,9 @@
   <head>
     <title>This is the tab title.</title>
     <link rel="stylesheet" href="style.css" />
-    
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
   <body>
     <h1>THIS IS THE TITLE</h1>
@@ -15,10 +17,10 @@
         This is the first span.
     </span>
     
-    <button id="dark-mode-button">
+    <div id="dark-mode-button-root">
       Dark
-    </button>
+    </div>
 
-    <script src="button.js"></script>
+    <script type="text/babel" src="button.jsx"></script>
   </body>
 </html>
